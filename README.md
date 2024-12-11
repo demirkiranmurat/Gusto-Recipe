@@ -1,22 +1,79 @@
-# Gusto-Recipe
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-### Category Page
-<img src="https://github.com/user-attachments/assets/e56a1dcc-98e2-4824-9cf1-579f46404243" width="300"/>
+# Getting Started
 
-### Drawer Page
-<img src="https://github.com/user-attachments/assets/2d3664c6-807b-44f8-abe9-4a6958a7a48e" width="300"/>
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-### Product Listing Page
-<img src="https://github.com/user-attachments/assets/9c8e229d-a0f7-4c59-882f-6ef00d9b4577" width="300"/>
+## Step 1: Start the Metro Server
 
-### Product Detail Page
-<img src="https://github.com/user-attachments/assets/0cfbc8ed-fa1e-4c51-b5d1-1ed862b7aa0d" width="300"/>
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-### Add Favorite
-<img src="https://github.com/user-attachments/assets/6590ece1-cb26-45c6-a6ed-3a5870124cdc" width="300"/>
+To start Metro, run the following command from the _root_ of your React Native project:
 
-### Remove From Favorites
-<img src="https://github.com/user-attachments/assets/10253cd9-7b5a-45d8-b4a2-c415e1a8c020" width="300"/>
+```bash
+# using npm
+npm start
 
-### Favorites Page
-<img src="https://github.com/user-attachments/assets/56d9f392-d452-44b9-ba9b-25b305099ba4" width="300"/>
+# OR using Yarn
+yarn start
+```
+
+## Step 2: Start your Application
+
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+
+### For Android
+
+```bash
+# using npm
+npm run android
+
+# OR using Yarn
+yarn android
+```
+
+### For iOS
+
+```bash
+# using npm
+npm run ios
+
+# OR using Yarn
+yarn ios
+```
+
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+
+This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+
+## Step 3: Modifying your App
+
+Now that you have successfully run the app, let's modify it.
+
+1. Open `App.tsx` in your text editor of choice and edit some lines.
+2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+
+   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## Congratulations! :tada:
+
+You've successfully run and modified your React Native App. :partying_face:
+
+### Now what?
+
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+
+# Troubleshooting
+
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+# Learn More
+
+To learn more about React Native, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
