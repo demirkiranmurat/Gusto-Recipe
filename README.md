@@ -1,4 +1,4 @@
-# Gusto-Recipe
+# Gusto-Recipe.
 
 ### Category Page
 <img src="https://github.com/user-attachments/assets/e56a1dcc-98e2-4824-9cf1-579f46404243" width="300"/>
